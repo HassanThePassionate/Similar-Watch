@@ -25,9 +25,9 @@ body {
   line-height: 30px;
   font-weight: 700;
   color: #fff;
+  padding-left: 10px;
 }
 .layout {
-  display: grid;
   min-height: calc(100vh - 72px);
   margin: auto;
   max-width: 1425px;

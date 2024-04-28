@@ -27,7 +27,7 @@ const Cards = ({ title }) => {
           navigation={{ nextEl: "#next", prevEl: "#prev" }}
           modules={[Navigation]}
           className="mySwiper"
-          style={{ maxWidth: "1280px" }}
+          style={{ maxWidth: "1300px" }}
         >
           {data.map((elm) => {
             return (
