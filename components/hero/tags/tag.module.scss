@@ -1,0 +1,43 @@
+
+#wrap{
+    margin: 32px auto 42px;
+    max-width: 1425px;
+    padding: 0 16px;
+    position: relative;
+    z-index: 1;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.tag{
+    background-color: #2e2e2e;
+    border-radius: 60px;
+    color: #e8e8e8;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 32px;
+    text-align: center;
+    min-height: 100px;
+    min-width: 200px;
+    transition: all 0.3s ;
+}
+.tag:hover{
+    background-color: #2e2e2ea6;
+}
+@media screen and (min-width : 1500px) {
+    #wrap{
+        padding: 0;
+    }
+
+}
+@media screen and (min-width : 1024px) {
+    #wrap{
+        padding: 0 24px;
+    }
+}

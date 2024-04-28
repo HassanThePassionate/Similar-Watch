@@ -1,0 +1,60 @@
+.wrapper {
+  background-color: #05080A;
+}
+
+.footer {
+  max-width: 1425px;
+  padding: 50px 16px 0;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .right {
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+}
+.footer .f_logo p {
+  margin: 10px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+.footer .logx {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer .social img {
+  cursor: pointer;
+}
+.footer .social p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+.footer .left {
+  display: flex;
+  gap: 50px;
+}
+.footer .left h4 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer .left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .left ul li {
+  color: #ccc;
+  font-size: 14px;
+  cursor: pointer;
+}
+.footer .left ul li:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.module.css.map */

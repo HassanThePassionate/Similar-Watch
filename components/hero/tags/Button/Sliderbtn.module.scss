@@ -1,0 +1,32 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  gap: 0.8rem;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+.buttons button {
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  background-color: rgb(46, 46, 46);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 40px;
+  width: 40px;
+}
+.buttons svg {
+  fill: #fff;
+}
+.buttons button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media screen and (max-width: 600px) {
+  .buttons {
+    margin-left: auto;
+  }
+}

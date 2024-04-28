@@ -1,0 +1,65 @@
+.wrapper{
+
+    background-color: #05080A;
+}
+.footer {
+    max-width: 1425px;
+    padding: 50px 16px 0;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+  
+    .right {
+      display: flex;
+      gap: 100px;
+      flex-direction: column;
+    }
+    .f_logo {
+      p {
+        margin: 10px 0;
+        color: #ccc;
+        font-size: 14px;
+      }
+    }
+    .logx {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #ccc;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .social {
+      img {
+        cursor: pointer;
+      }
+      p {
+        margin: 10px 0;
+        font-size: 14px;
+        color: #ccc;
+      }
+    }
+    .left {
+      display: flex;
+      gap: 50px;
+      h4 {
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li {
+          color: #ccc;
+          font-size: 14px;
+          cursor: pointer;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }

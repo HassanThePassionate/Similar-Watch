@@ -1,0 +1,140 @@
+.hero {
+  min-height: 100%;
+  padding: 72px 0 42px;
+  position: relative;
+}
+.hero .hero_wrap {
+  flex-direction: row;
+  min-height: 440px;
+  display: flex;
+  min-height: 440px;
+  padding: 60px 94px 0 24px;
+  margin: 0 auto;
+  max-width: 1425px;
+}
+.hero .hero_wrap h1 {
+  font-size: 46px;
+  padding-top: 50px;
+  width: 360px;
+  font-weight: 700;
+  line-height: 1.6;
+  z-index: 1;
+  color: #e8e8e8;
+}
+.hero .hero_wrap .span_tag {
+  background-image: linear-gradient(to right, #6eda78 100%, transparent);
+  background-repeat: no-repeat;
+  color: #000;
+  font-weight: 800;
+  margin-left: 10px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 0 10px;
+}
+.hero .search_hero {
+  padding-top: 126px;
+  padding-left: 80px;
+  flex-grow: 1;
+}
+.hero .search_hero .search {
+  --bg: #2e2e2e;
+  --border: #2e2e2e;
+  --text: #fff;
+  min-height: 64px;
+  padding: 0 14px 0 26px;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 32px;
+  gap: 12px;
+  max-width: 544px;
+  min-height: 52px;
+  padding: 0 8px 0 20px;
+  position: relative;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.hero .search_hero .search:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: scale(1.02);
+}
+.hero .search_hero .hero_form {
+  align-items: center;
+  display: flex;
+  flex-grow: 1s;
+}
+.hero .search_hero .hero_form input {
+  font-size: 24px;
+  height: 64px;
+  background-color: inherit;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.7;
+  padding-left: 24px;
+  width: 100%;
+  outline: none;
+}
+.hero .search_hero .hero_form .btn {
+  align-items: center;
+  display: flex;
+  background-color: #6eda78;
+  border-radius: 20px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1;
+  min-height: 40px;
+  min-width: 96px;
+}
+.hero .search_hero .search_value {
+  display: flex;
+  align-items: center;
+  background-color: #2e2e2e;
+  border-radius: 32px;
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  padding: 0 14px 0 60px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 120px);
+}
+.hero .search_hero .search_value::before {
+  background-color: #6eda78;
+  border-radius: 50%;
+  content: "";
+  height: 12px;
+  left: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+}
+
+.overlay {
+  background: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Fthe-dark-knight-2008%2Fthe-dark-knight-2008-cover-large.jpg&w=3840&q=75");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  inset: 0;
+  position: absolute;
+  transition: background-image 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay::before {
+  content: "";
+  display: inline-block;
+  inset: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  background-image: linear-gradient(185deg, transparent, #0a1016 99%), linear-gradient(to bottom, transparent, #0a1016 99%);
+}
+
+@media screen and (min-width: 1500px) {
+  .hero {
+    padding: 60px 94px 0 0;
+  }
+}/*# sourceMappingURL=hero.module.css.map */
