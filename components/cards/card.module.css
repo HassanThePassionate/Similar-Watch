@@ -1,5 +1,6 @@
 .wrapper {
   max-width: 1425px;
+  padding: 0 16px;
   position: relative;
   z-index: 1;
 }
@@ -93,5 +94,10 @@
 @media screen and (min-width: 1500px) {
   .wrapper {
     padding: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding: 0 24px;
   }
 }/*# sourceMappingURL=card.module.css.map */

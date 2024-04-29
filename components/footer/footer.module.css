@@ -1,5 +1,6 @@
 .wrapper {
-  background-color: #05080A;
+  padding: 0 16px;
+  background-color: #05080a;
 }
 
 .footer {
@@ -57,4 +58,10 @@
 }
 .footer .left ul li:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding: 0 24px;
+  }
 }/*# sourceMappingURL=footer.module.css.map */

@@ -1,3 +1,6 @@
+.wrapper {
+  padding: 0 16px;
+}
 .cards_wrapper {
   padding: 24px 24px 32px;
   background-color: #2b2b2c;
@@ -92,5 +95,10 @@
   }
   &:hover h3 {
     color: #6eda78;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding: 0 24px;
   }
 }

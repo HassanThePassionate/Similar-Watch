@@ -1,65 +1,70 @@
-.wrapper{
-
-    background-color: #05080A;
+.wrapper {
+  padding: 0 16px;
+  background-color: #05080a;
 }
 .footer {
-    max-width: 1425px;
-    padding: 50px 16px 0;
-    margin: 100px auto 0;
+  max-width: 1425px;
+  padding: 50px 16px 0;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+
+  .right {
     display: flex;
-    justify-content: space-between;
-  
-    .right {
-      display: flex;
-      gap: 100px;
-      flex-direction: column;
-    }
-    .f_logo {
-      p {
-        margin: 10px 0;
-        color: #ccc;
-        font-size: 14px;
-      }
-    }
-    .logx {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+    gap: 100px;
+    flex-direction: column;
+  }
+  .f_logo {
+    p {
+      margin: 10px 0;
       color: #ccc;
       font-size: 14px;
-      font-weight: 700;
     }
-    .social {
-      img {
-        cursor: pointer;
-      }
-      p {
-        margin: 10px 0;
-        font-size: 14px;
-        color: #ccc;
-      }
+  }
+  .logx {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .social {
+    img {
+      cursor: pointer;
     }
-    .left {
+    p {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #ccc;
+    }
+  }
+  .left {
+    display: flex;
+    gap: 50px;
+    h4 {
+      margin-bottom: 20px;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    ul {
       display: flex;
-      gap: 50px;
-      h4 {
-        margin-bottom: 20px;
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 600;
-      }
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        li {
-          color: #ccc;
-          font-size: 14px;
-          cursor: pointer;
-          &:hover{
-            text-decoration: underline;
-          }
+      flex-direction: column;
+      gap: 10px;
+      li {
+        color: #ccc;
+        font-size: 14px;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
   }
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding: 0 24px;
+  }
+}
