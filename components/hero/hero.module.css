@@ -113,24 +113,21 @@
 }
 
 .overlay {
-  background: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Fthe-dark-knight-2008%2Fthe-dark-knight-2008-cover-large.jpg&w=3840&q=75");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   inset: 0;
   position: absolute;
-  transition: transform 0.5s;
-  height: 100%;
-  width: 100%;
-  animation: changeImg 30s linear infinite;
-  overflow: hidden;
+  animation: changeImg 10s infinite;
 }
 
 @keyframes changeImg {
   0% {
+    opacity: 1;
     background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Fthe-dark-knight-2008%2Fthe-dark-knight-2008-cover-large.jpg&w=3840&q=75");
   }
   25% {
+    opacity: 1;
     background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Ftoy-story-3-2010%2Ftoy-story-3-2010-cover-large.jpg&w=3840&q=75");
   }
   50% {
@@ -143,10 +140,6 @@
     background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Fjoker-2019%2Fjoker-2019-cover-large.jpg&w=3840&q=75");
   }
 }
-.overlay:hover {
-  transform: scale(1.1) rotateY(10deg);
-}
-
 .overlay::before {
   content: "";
   display: inline-block;
