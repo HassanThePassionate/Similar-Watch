@@ -113,7 +113,7 @@
 }
 
 .overlay {
-  background-position: 50%;
+  background-position: 50% 4%;
   background-repeat: no-repeat;
   background-size: cover;
   inset: 0;
