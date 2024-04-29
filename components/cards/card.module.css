@@ -1,6 +1,5 @@
 .wrapper {
   max-width: 1425px;
-  padding: 0 16px;
   position: relative;
   z-index: 1;
 }
@@ -16,7 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  background-color: #2B2B2C;
+  background-color: #2b2b2c;
   margin: 30px 0;
   padding-bottom: 10px;
   width: 100%;
@@ -63,7 +62,7 @@
 }
 .card .btn {
   padding: 5px 16px;
-  background-color: #30353C;
+  background-color: #30353c;
   color: rgb(87, 153, 239);
   cursor: pointer;
   border-radius: 4px;
@@ -88,16 +87,11 @@
 }
 
 #transparent:hover {
-  background-color: #30353C !important;
+  background-color: #30353c !important;
 }
 
 @media screen and (min-width: 1500px) {
   .wrapper {
     padding: 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .wrapper {
-    padding: 0 24px;
   }
 }/*# sourceMappingURL=card.module.css.map */

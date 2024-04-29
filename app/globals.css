@@ -25,13 +25,12 @@ body {
   line-height: 30px;
   font-weight: 700;
   color: #fff;
-  padding-left: 10px;
 }
 .layout {
   min-height: calc(100vh - 72px);
-  margin: auto;
+  margin: 32px auto 42px;
+  /* padding: 0 16px; */
   max-width: 1425px;
-  padding: 0 16px;
 }
 @media screen and (min-width: 1536px) {
   .header_container {

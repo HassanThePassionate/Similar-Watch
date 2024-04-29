@@ -7,8 +7,8 @@ import { PkData } from "@/constant/PkData";
 const SmCards = () => {
   return (
     <div className={styles.wrapper}>
-      <div className="title " style={{ paddingLeft: "20px" }}>
-        Where to watch in <span className="underline">Pakistan</span>
+      <div className='title '>
+        Where to watch in <span className='underline'>Pakistan</span>
       </div>
 
       <div className={styles.cards_wrapper}>
@@ -17,9 +17,9 @@ const SmCards = () => {
             let strokeDashoffset = 289.027 - (elm.rate / 10) * 289.027;
 
             return (
-              <Link href="#" className={styles.smcard} key={elm.img}>
+              <Link href='#' className={styles.smcard} key={elm.img}>
                 <div className={styles.thumb}>
-                  <Image src={elm.img} alt="img" width={64} height={96} />
+                  <Image src={elm.img} alt='img' width={64} height={96} />
                 </div>
                 <div className={styles.details}>
                   <ul>
@@ -33,14 +33,14 @@ const SmCards = () => {
                   <div className={styles.circle}>
                     <div className={styles.circle_rate}>
                       <svg
-                        className="CircularProgressbar"
-                        viewBox="0 0 100 100"
+                        className='CircularProgressbar'
+                        viewBox='0 0 100 100'
                       >
                         <path
-                          className="CircularProgressbar-trail"
-                          d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92"
-                          strokeWidth="8"
-                          fillOpacity="0"
+                          className='CircularProgressbar-trail'
+                          d='M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92'
+                          strokeWidth='8'
+                          fillOpacity='0'
                           style={{
                             stroke: "transparent",
                             strokeDasharray: "289.027px, 289.027px",
@@ -48,10 +48,10 @@ const SmCards = () => {
                           }}
                         ></path>
                         <path
-                          className="CircularProgressbar-path"
-                          d="M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92"
-                          strokeWidth="8"
-                          fillOpacity="0"
+                          className='CircularProgressbar-path'
+                          d='M 50,50 m 0,-46 a 46,46 0 1 1 0,92 a 46,46 0 1 1 0,-92'
+                          strokeWidth='8'
+                          fillOpacity='0'
                           style={{
                             stroke: "rgb(251, 191, 36)",
                             strokeDasharray: "289.027px, 289.027px",
