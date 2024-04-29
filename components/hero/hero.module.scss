@@ -2,6 +2,7 @@
   min-height: 100%;
   padding: 72px 0 42px;
   position: relative;
+  overflow: hidden;
   .hero_wrap {
     flex-direction: row;
     min-height: 440px;
@@ -119,9 +120,32 @@
   background-size: cover;
   inset: 0;
   position: absolute;
-  transition: background-image 0.3s ease-in-out;
+  transition: transform 0.5s;
   height: 100%;
   width: 100%;
+  animation: changeImg 30s linear infinite;
+  overflow: hidden;
+}
+@keyframes changeImg {
+  0% {
+    background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Fthe-dark-knight-2008%2Fthe-dark-knight-2008-cover-large.jpg&w=3840&q=75");
+  }
+  25% {
+    background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Ftoy-story-3-2010%2Ftoy-story-3-2010-cover-large.jpg&w=3840&q=75");
+  }
+  50% {
+    background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Fgladiator-2000%2Fgladiator-2000-cover-large.jpg&w=3840&q=75");
+  }
+  75% {
+    background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Falien-2019%2Falien-2019-cover-large.jpg&w=3840&q=75");
+  }
+  100% {
+    background-image: url("https://similarwatch.com/_next/image/?url=https%3A%2F%2Fmovies.imgcdn.org%2Fmovies%2Fjoker-2019%2Fjoker-2019-cover-large.jpg&w=3840&q=75");
+  }
+}
+
+.overlay:hover {
+  transform: scale(1.1) rotateY(10deg);
 }
 .overlay::before {
   content: "";
